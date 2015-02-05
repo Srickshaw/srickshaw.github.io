@@ -1,0 +1,32 @@
+<h1 class="text-center check-header-text">Employee Check In</h1>
+<div class="container">
+    <form nonvalidate>
+        <div class="row">
+            <div class="form-group col-md-6 col-md-offset-3">
+              <h4>Name:</h4> <input class="form-control" type="text" ng-model="new.name">
+            </div>           
+        </div>
+        <div class="row">
+            <div class="form-group col-md-6 col-md-offset-3">    
+              <h4>Employee ID:</h4> <input class="form-control" type="text" ng-model="new.empId">
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-6 col-md-offset-3">    
+              <h4>Employee Title:</h4> <input class="form-control" type="text" ng-model="new.empTitle">             
+            </div> 
+        </div>
+        <div class="row">
+            <div class="form-group col-md-6 col-md-offset-3">            
+              <h4>Gender:</h4> <input type="radio" value="male" ng-model="new.gender"><label style="font-size: 18px; font-weight: 300;">&nbsp; Male &nbsp;</label> 
+                      <input type="radio" value="female" ng-model="new.gender"><label style="font-size: 18px; font-weight: 300;">&nbsp; Female</label><br>
+            </div> 
+        </div>    
+    </form>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2 col-md-offset-4"><button class="btn btn-lg inverse-btn center-block check-button"   ng-click="add.employee(new.name, new.gender, new.empId, new.empTitle); go('index');" >Click to Add</button></div>
+        <div class="col-md-2"><button class="btn btn-lg inverse-btn center-block check-button" ui-sref="index">Return to Home</button></div>
+    </div>
+</div>

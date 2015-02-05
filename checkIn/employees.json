@@ -1,0 +1,48 @@
+[
+        {
+            "id": 0,
+            "name": "John Doe", 
+            "gender": "male",
+            "empID": "12345",
+            "empTitle": "Jr. Software Engineer",           
+            "checkInTime": "",
+            "image": ""
+        },
+        {
+            "id": 1,
+            "name": "Jane Doe",
+            "gender": "female",
+            "empID": "54321",
+            "empTitle": "Associate Software Engineer",
+            "checkInTime": "",
+            "image":""
+        },
+        {
+            "id": 2,
+            "name": "Jerry Perkins",
+            "gender": "male",
+            "empID": "23578",
+            "empTitle": "Senior Software Engineer",
+            "checkInTime": "",
+            "image":""
+        },
+        {
+            "id": 3,          
+            "name": "Martin Brown", 
+            "gender": "male",
+            "empID": "62578",
+            "empTitle": "CEO",
+            "checkInTime": "",
+            "image": "img/emp-face.png"
+        },
+        {
+            "id": 4,          
+            "name": "Helena Carter", 
+            "gender": "female",
+            "empID": "43529",
+            "empTitle": "CFO",
+            "checkInTime": "",
+            "image":"img/emp-jane.png"
+        }
+    
+]

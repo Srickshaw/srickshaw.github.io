@@ -1,0 +1,20 @@
+
+ <h1 class="text-center check-header-text">Employee Check Out</h1>
+ <div class="container-fluid">
+        <div class="row text-center center-block">        
+            <div class="col-md-2 col-md-offset-2"><h3>Employee Name</h3></div>        
+            <div class="col-md-2"><h3>Employee Title</h3></div>
+            <div class="col-md-2"><h3>Check-In Time</h3></div>              
+</div>
+<div class="container">
+ <hr style="border: 1px solid #fff;">
+</div>
+<div ng-repeat="employee in all.employees | orderBy: checkInTime" class="container-fluid center-block">
+         <div class="row check-out-row-text">
+            <div class="col-md-2 col-md-offset-2" style="padding-left: 0px"><div><img class="pull-left" style="vertical-align: middle;" ng-src="{{employee.image}}"></div><h4>{{employee.name}}</h4></div>
+            <div class="col-md-2"><h4>{{employee.empTitle}}</h4></div>           
+            <div class="col-md-2"><h4>{{employee.checkInTime | date:'shortTime'}}</h4></div>
+            <div class="col-md-2"> <button class="btn inverse-btn pull-right" style="font-size: 16px" ng-click="remove.employee(employee); go('index');">Check Out</button></div>
+        </div>       
+    </div>
+<button class="btn btn-lg center-block inverse-btn check-button" ui-sref="index">Return to Home</button>  

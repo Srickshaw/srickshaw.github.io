@@ -1,0 +1,46 @@
+.inverse-btn
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300px;
+    padding: 15px 30px;
+    font-size: 25px;
+    background-color: transparent; 
+    border-color: #fff; 
+    color: #fff;
+}
+.inverse-btn:hover       
+{
+    color: #951717;
+    background-color: #fff;
+}
+.main-header-text
+{
+    margin-top: 15%; 
+    font-size: 60px; 
+    font-weight: 700; 
+    margin-bottom: 70px;
+}
+.main-body
+{
+    background-color: #951717; 
+    color: #fff; 
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 500;
+}
+.check-button
+{
+    font-size: 18px; 
+    margin-top: 15px;
+}
+.check-header-text
+{
+    font-size: 48px; 
+    font-weight: 700; 
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+.check-out-row-text
+{
+    text-align: center;
+    padding-top: 20px;
+}
