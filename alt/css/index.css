@@ -1,0 +1,267 @@
+/* Header Stuff */
+.header
+{
+	background: #f55; 
+	background-position: center; 
+	background-size: cover;
+	background-attachment: fixed; 
+	display: table;
+	height: 100%;
+	width: 100%; 
+	padding: none;
+}
+.header-image-pos
+{		
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+}
+.header-image
+{
+	max-width: 75%;
+	height: auto;
+}
+.header-text-wrapper
+{
+	vertical-align: middle; 
+	display: table-cell; 
+	height: 100%;
+	width: 100%; 
+	text-align: center;
+}
+.header-title-text
+{
+	color: black; 
+	font-weight: 700; 
+	font-size: 9em;
+}
+.header-link
+{
+	color: black;
+}
+.header-link:hover,
+.header-link:visited
+{
+	color: black;
+	text-decoration: none;
+}
+.header-down-arrow
+{
+	color: black;
+	width: 85px; 
+	height: 85px; 
+	border: 4px solid black; 
+	border-radius: 100px; 
+	display: inline-flex;
+	text-decoration: none;
+}
+.header-down-arrow:hover
+{
+	background: black;
+	color: #f55;	
+}
+/* What section */
+.what-header
+{
+	height: 325px;
+	width: 100%;
+	background: url(../img/what-top.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.what-main
+{
+	height: auto; 
+	font-weight: 400; 
+	text-align: center;
+	vertical-align: top;
+	margin: 50px 0;
+}
+.what-title
+{
+	font-size: 2.5em; 
+	margin: 40px 0;
+}
+.what-text
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+.what-col-wrapper
+{
+	height: auto;
+	width: 80%;	
+	margin: 0 auto;
+}
+.what-col
+{
+	height: auto;
+	width: 20%;	
+	margin: 0 25px 25px 25px;
+	padding: 25px;
+	display: inline-block;
+	border: 5px solid black;
+}
+.what-col-header
+{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	margin: 12px 0;
+}
+.what-col-text
+{
+	margin: auto;
+	font-size: 1.1em;
+	font-family: 'Lato', sans-serif;	
+}
+/* Info Boxes */
+.section-title-wrapper
+{
+	display: table-cell; 
+	vertical-align: middle; 
+	text-align: center;
+}
+.section-title-text-left
+{
+	display: inline-block; 
+	border: 5px solid #DA0000;
+	color: #DA0000;
+	padding: 35px; 
+	font-size: 2.75em; 
+	vertical-align: middle; 
+	text-align: center;
+}
+.section-title-text-right
+{
+	display: inline-block; 
+	border: 5px solid #fd6565;
+	color: #fd6565;
+	padding: 35px; 
+	font-size: 2.75em; 
+	vertical-align: middle; 
+	text-align: center;
+}
+.section-title-left
+{
+	width: 40%;
+	height: 100%; 
+	display: table;
+	float: left;
+	background: #FF9C4A;
+
+}
+.section-title-right
+{
+	width: 40%;
+	height: 100%; 
+	display: table;
+	/*float: right;*/
+	background: #7C2C2C;
+	margin: 0 60% 0 0;
+}			
+.section-text-main-right
+{
+	height: 100%; 
+	width: 60%; 
+	display: table;
+	background-color: #4C4C4C; 
+	/*float: right;*/
+	color: white;
+	margin: 0 0 0 40%;
+}
+.section-text-main-left
+{
+	height: 100%; 
+	width: 60%; 
+	display: table;
+	float: left; 
+	background: #4C4C4C;				
+	color: white;	
+}
+.section-text-wrapper
+{
+	display: table-cell; 
+	vertical-align: middle;
+}
+.section-text
+{
+	font-family: 'Lato', sans-serif;
+	vertical-align: middle; 
+	display: table-cell;				
+	font-weight: 400;
+}
+
+/* Last Section */
+.last-section
+{
+	height: 405px;
+	background: #414141;
+	color: white; 				 
+	padding-top: 15px;
+	padding-bottom: 45px;
+}
+.last-section-but
+{
+	width: 125px; 
+	height: 125px; 
+	border: 4px solid white;
+	display: inline-flex; 
+}
+.last-section-but:hover
+{
+	background: white;
+	/*background: #f5ff18;*/
+	color: #414141;
+}
+.last-section-title-wrapper
+{
+	text-align: center; 
+	width: 400px; 
+	margin-left: auto;
+	margin-right: auto;
+}
+.last-section-title
+{
+	font-weight: 700; 
+	border-bottom: 5px solid white;
+}
+.last-section-text-wrapper
+{
+	text-align: center; 
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.last-section-text
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+
+@media (max-width: 850px)
+{
+	.what-col
+	{
+		width: 45%;
+	}
+}
+
+@media (max-width: 590px)
+{
+	.what-col
+	{
+		width: 70%;
+	}
+}
